@@ -31,7 +31,7 @@ app.get('/api/whoami', (req, res) => {
   const opSystem = os.platform();
   const lang = process.env.LANG;
   
-  response = {
+ const response = {
     ipaddress: ipAddress,
     software: opSystem,
     language: lang
